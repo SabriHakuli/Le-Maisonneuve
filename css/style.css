@@ -103,6 +103,19 @@
     grid-template-columns: 3.8fr 9fr;
 }
 
+@media only screen and (max-width: 600px) {
+    .Section3 {
+        grid-template-columns: 1fr;
+        padding: 0;
+    }
+    .Section3 div img {
+        padding: 0;
+        width: 100%;
+        float: right;
+    }
+}
+
+
 .Section3 div {
     margin-top: 20px;
 }
