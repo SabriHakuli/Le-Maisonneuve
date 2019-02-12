@@ -64,11 +64,28 @@
         height: 100vh;
         display: inline;
         color: #fff;
+        position: fixed;
+    }
+
+    .MobMenu button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding: 0;
+        float: right;
+    }
+
+    .MobMenu nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     .navbar-collapse {
         overflow: hidden;
         height: 100vh;
+    }
+
+    .Section1 {
     }
 }
 
