@@ -83,15 +83,7 @@
         margin-left: 80%;
         margin-right: 10%
     }
-
-    .navbar-toggler {
-        margin: 0;
-        padding: 0;
-        width: 20%;
-        color: #fff;
-        background-color: #fff;
-    }
-
+    
     .navbar-collapse {
         overflow: hidden;
         height: 100vh;
