@@ -80,6 +80,11 @@
         padding: 0;
         margin: 0;
     }
+
+    .MobMenu button i {
+        color: #fff;
+    }
+
     .navbar-collapse {
         overflow: hidden;
         height: 100vh;
@@ -90,7 +95,6 @@
         grid-template-columns: 1fr 1fr;
         padding: 10px;
         overflow: hidden;
-        width: 100%;
     }
 
     .MobMenu nav span i {
