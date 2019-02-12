@@ -54,6 +54,7 @@
 @media only screen and (max-width: 600px) {
     .p-4 {
         height: 100vh;
+        position: relative;
     }
 
     .LogoNavbar {
@@ -64,7 +65,9 @@
         height: 100vh;
         display: inline;
         color: #fff;
-        position: fixed;
+        position: absolute;
+        z-index: 1000;
+
     }
 
     .MobMenu button {
@@ -73,11 +76,7 @@
         cursor: pointer;
         padding: 0;
         float: right;
-    }
-
-    .MobMenu nav {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+        padding-left: 100px;
     }
 
     .navbar-collapse {
@@ -85,7 +84,9 @@
         height: 100vh;
     }
 
-    .Section1 {
+    .MobMenu nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 }
 
