@@ -99,8 +99,8 @@
         width: 100%;
     }
 
-    .MobMenu nav span {
-        float: right;
+    .MobMenu nav span i {
+        color: #fff;
     }
 }
 
