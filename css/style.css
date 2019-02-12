@@ -22,16 +22,19 @@
 
 
 .LogoNavbar {
+    overflow: hidden;
     margin-top: 40px;
     margin-right: 70px;
     margin-left: 70px;
 }
 
 .LogoNavbar li {
+    overflow: hidden;
     float: left;
 }
   
 .LogoNavbar li a {
+    overflow: hidden;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -92,6 +95,12 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .Section1 {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 30vh;
+    }
+
     .Section2 {
         margin: 15px;;
         display: flex;
@@ -109,21 +118,10 @@
     grid-template-columns: 3.8fr 9fr;
 }
 
-@media only screen and (max-width: 600px) {
-    .Section3 {
-        grid-template-columns: 1fr;
-        padding: 0;
-    }
-    .Section3 div img {
-        padding: 0;
-        width: 100%;
-        float: right;
-    }
-}
-
-
 .Section3 div {
+    margin: 0;
     margin-top: 20px;
+    width: 100%;
 }
 
 .Section3 div img {
@@ -132,18 +130,55 @@
     float: right;
 }
 
+@media only screen and (max-width: 600px) {
+    .Section3 {
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin: 0 10px 0 10px;
+    }
+    .Section3 div img {
+        padding: 0;
+        width: 100%;
+        float: right;
+    }
+}
+
 .flech {
     margin-left: 513px;
     margin-top: 40px;
 }
 
-.SiteWebPar ul {
-    float: right;
-    margin-right: 70px;
+.SiteWebPar {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0;
 }
 
-.SiteWebPar ul li {
-    display: inline-block;
+.SiteWebPar div p {
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .SiteWebPar {
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px 0;
+        background: rgb(240, 240, 240);
+    }
+
+    .SiteWebPar div p {
+        margin: 0;
+        text-align: center;
+        font-size: 1em;
+    }
+    .zedimg {
+        margin:0 43%;
+    }
 }
 
 .Responsive {
