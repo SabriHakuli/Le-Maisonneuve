@@ -136,7 +136,7 @@
         display: flex;
         justify-content: center;
         text-align: center;
-        overflow: hiddenn;
+        overflow: hidden;
     }
 }
 
